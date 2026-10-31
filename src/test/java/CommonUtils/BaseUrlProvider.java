@@ -14,7 +14,7 @@ public class BaseUrlProvider {
         return switch (Environment.toLowerCase())
         {
             case "prod" -> PropertyReader.getProperty("OTT_Prod_Base_Url");
-            case "uat" -> PropertyReader.getProperty("OTT_Uat_Base_Url");
+            case "uat" -> PropertyReader.getProperty("OTT_UAT_Base_Url");
             case "stage" -> PropertyReader.getProperty("OTT_Stage_Base_Url");
 
             default -> throw new IllegalArgumentException("Unsupported enviroment: " + Environment);
