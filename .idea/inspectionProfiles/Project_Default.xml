@@ -5,6 +5,12 @@
       <option name="customHeaders">
         <set>
           <option value="deviceId" />
+          <option value="anonymousId" />
+          <option value="appversion" />
+          <option value="platform" />
+          <option value="devicetype" />
+          <option value="deviceid" />
+          <option value="subscriptiontype" />
         </set>
       </option>
     </inspection_tool>
